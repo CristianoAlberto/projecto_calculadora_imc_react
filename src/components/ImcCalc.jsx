@@ -58,6 +58,9 @@ const ImcCalc = ({calcImc}) => {
                     <Button id="calc-btn" text="Calcular" action={(e)=> calcImc(e, height, weight)} />
                     <Button id="clear-btn" text="Limpar" action={clearForms} />
                 </div>
+                <div className='paragrafo'>
+                    <p>OBS: IMC - ÍNDICE DE MASSA CORPORAL</p>
+                </div>
             </form>
 
         </div>
