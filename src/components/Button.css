@@ -1,0 +1,22 @@
+button{
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #f44236;
+    border: none;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button:hover{
+    opacity: 1;
+}
+#clear-btn {
+    background-color: #444;
+}
