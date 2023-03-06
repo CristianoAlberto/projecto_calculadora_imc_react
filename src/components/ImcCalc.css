@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
+   
 }
 
 .form-control{
@@ -15,6 +16,7 @@
     flex-direction: column;
     flex: 1;
     margin-bottom: 2rem;
+  
 }
 
 .form-control label {
@@ -32,4 +34,8 @@
     justify-content: space-between;
     gap: 1rem;
     margin-top: 2rem;
+}
+
+.form-control input{
+    padding: 10px;
 }
